@@ -7,6 +7,7 @@ The project is to create a CLI (comand-line input) application that will ask que
 The user wanted an webpage/app that consolidates and quickly displays their team's basic info (e.g. names, emails, GitHub profiles).
 
 https://www.npmjs.com/package/inquirer/v/8.2.4
+
 https://www.npmjs.com/package/jest
 
 ## Installation
