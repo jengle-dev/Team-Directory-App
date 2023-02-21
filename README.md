@@ -28,6 +28,11 @@ I am open to collaboration for contributing to updates to this page. Please emai
 
 https://www.educative.io/answers/how-to-use-the-inquirer-node-package
 
+https://materializecss.com/
+
+https://www.w3schools.com/
+
+https://developer.mozilla.org/
 
 
 ## Authors and acknowledgment
@@ -37,5 +42,7 @@ Jennifer Engle
 No License is used on this site.
 
 ## Project status
+In progress.
+
 
 ## Badges
