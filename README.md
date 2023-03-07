@@ -29,6 +29,8 @@ The next install, Modernizr, automatically detects the availability of next-gene
 
 
 ## Visuals 
+I began the project using Materialize CSS Framework and switched to Bootstrap CSS Framework to remove a "moderate severity vulnerability with cross-site Scripting(XSS)" notification.
+* https://getbootstrap.com/docs/5.1/getting-started/introduction/ 
 
 ## Support
 If there are issues with the site, please reach out to me, Jennifer Engle, at j.engle.dev@gmail.com and reference the site's URL. Please provide any screenshots and behavior along with your browser information.
@@ -46,6 +48,7 @@ I am open to collaboration for contributing to updates to this page. Please emai
 * https://www.w3schools.com/
 * https://developer.mozilla.org/
 * https://www.youtube.com/watch?v=soKo5LzN12w
+* https://icons.getbootstrap.com/icons/cup-fill/
 
 Used the following to inspect Materialize CSS elements & styles.
 * https://adbeus.com/
