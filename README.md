@@ -15,12 +15,13 @@ Used for testing.
 * https://www.npmjs.com/package/jest
 
 ## Installation
+* npm init -y
+
 Though I have the CDNs placed within the HTML generated file, I have also installed materialize-css via npm.</br>
 * npm install materialize-css@next
 
 The next install, Modernizr, automatically detects the availability of next-generation web technologies in your user's browsers. </br> 
 * npm install -g modernizr
-
 
 * npm install express
 

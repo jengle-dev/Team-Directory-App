@@ -1,3 +1,4 @@
+global.document = new JSDOM(html).window.document;
 const roleInput = document.getElementById("role");
 // const
 
