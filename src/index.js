@@ -1,7 +1,5 @@
 global.document = new JSDOM(html).window.document;
 const roleInput = document.getElementById("role");
-// const
-
 
 function myFunction() {
     var x = document.getElementById("myDIV");

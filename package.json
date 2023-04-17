@@ -1,0 +1,29 @@
+{
+  "name": "team-directory-app",
+  "version": "1.1.0",
+  "description": "## Description The project is to create a CLI (comand-line input) application that will ask questions and display the results in a dynamically created HTML file that has working links to each team member's specific link/profile. The page also needs to have tests available to verify that input meets the criteria.",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jengle-dev/Team-Directory-App.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jengle-dev/Team-Directory-App/issues"
+  },
+  "homepage": "https://github.com/jengle-dev/Team-Directory-App#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "inquirer": "^8.2.4",
+    "jest": "^29.5.0",
+    "node": "^19.8.1"
+  }
+}
