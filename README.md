@@ -4,7 +4,11 @@
 The project is to create a CLI (comand-line input) application that will ask questions and display the results in a dynamically created HTML file that has working links to each team member's specific link/profile. The page also needs to have tests available to verify that input meets the criteria.
 
 ## Usage
-The user wanted an webpage/app that consolidates and quickly displays their team's basic info (e.g. names, emails, GitHub profiles).
+The user wants a webpage/app that consolidates and quickly displays their work team's basic info (e.g. names, emails, GitHub profiles).
+When the email address is displayed, it will be a hyperlink that prompts the user's default email program to open and the TO field will show the email clicked.
+
+**Node.js** </br>
+
 
 **Inquirer** </br>
 Used to capture and use Node.js to utilize command line interface input in the application.
@@ -16,18 +20,10 @@ Used for testing.
 
 ## Installation
 * npm init -y
-
-Though I have the CDNs placed within the HTML generated file, I have also installed materialize-css via npm.</br>
-* npm install materialize-css@next
-
-The next install, Modernizr, automatically detects the availability of next-generation web technologies in your user's browsers. </br> 
-* npm install -g modernizr
-
-* npm install express
-
-
-* npm install --save-dev jest
-
+* npm i node
+* npm i express
+* npm i inquirer@8.2.4
+* npm i jest
 
 ## Visuals 
 I began the project using Materialize CSS Framework and switched to Bootstrap CSS Framework to remove a "moderate severity vulnerability with cross-site Scripting(XSS)" notification.
