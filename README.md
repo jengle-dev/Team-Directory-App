@@ -3,7 +3,7 @@
 ## Description
 The project is to create a CLI (comand-line input) application that will ask questions and display the results in a dynamically created HTML file that has working links to each team member's specific link/profile. The page also needs to have tests available to verify that input meets the criteria.
 
-## Usage
+## Packages
 The user wants a webpage/app that consolidates and quickly displays their work team's basic info (e.g. names, emails, GitHub profiles).
 When the email address is displayed, it will be a hyperlink that prompts the user's default email program to open and the TO field will show the email clicked.
 
@@ -18,20 +18,23 @@ Used to capture and use Node.js to utilize command line interface input in the a
 Used for testing.
 * https://www.npmjs.com/package/jest
 
-## Installation
-* npm init -y
-* npm i node
-* npm i express
-* npm i inquirer@8.2.4
-* npm i jest
+## Usage
+You can initiate the Command Line Interface by either of the following
+* `npm start`
+
+or
+
+* `node index.js`
 
 ## Visuals 
 <!-- Need to provide a screenshot -->
 
+Gif of CLI prompts using inquirer
+
 
 
 ## Contributing
-I am open to collaboration for contributing to updates to this page. Please email me at j.engle.dev@gmail.com.
+I am open to collaboration for contributing to updates to this page. Please email me at j.engle.dev@gmail.com. 
 
 ## References Used
 * https://www.educative.io/answers/how-to-use-the-inquirer-node-package
@@ -59,4 +62,4 @@ Jennifer Engle
 No License is used on this site.
 
 ## Project status
-In progress.
+Sent for initial grading. I plan to continue working on this in the future. 
