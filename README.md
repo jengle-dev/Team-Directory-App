@@ -8,7 +8,8 @@ The user wants a webpage/app that consolidates and quickly displays their work t
 When the email address is displayed, it will be a hyperlink that prompts the user's default email program to open and the TO field will show the email clicked.
 
 **Node.js** </br>
-
+* https://nodejs.org/en/blog/announcements/v18-release-announce
+* https://nodejs.org/en/download
 
 **Inquirer** </br>
 Used to capture and use Node.js to utilize command line interface input in the application.
@@ -36,6 +37,7 @@ https://user-images.githubusercontent.com/117794203/235378093-eb8716fc-bee8-44d7
 * Example of "team.html" displayed after right clicking on team.html and selecting "Open in Default Browser": https://user-images.githubusercontent.com/117794203/235378091-363f0a78-1d10-4e19-bdc0-51a68daf4e3c.png
 
 * Recording of initial CLI prompts: https://watch.screencastify.com/v/R66AllZDnPcmSUGM5ywC 
+* Recording of CLI ending, the html generated and being opened in default browser: https://watch.screencastify.com/v/d2KIdcgodODGsnr681iI
 
 
 ## Contributing
