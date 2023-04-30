@@ -26,11 +26,24 @@ function appMenu() {
                 type: "input",
                 name: "managerName",
                 message: "What is the team manager's name?",
+                //validation suggested, not required, check user input
                 validate: answer => {
                     if (answer !== "") {
                         return true;
                     }
                     return "Please enter at least one character.";
+                },
+            },
+            {
+                type: "input",
+                name: "managerId",
+                message: "What is the team manager's ID?",
+                //validation suggested, not required, check user input
+                validate: answer => {
+                    if (pass) {
+                        return true;
+                    }
+                    return "Please enter an ID number greater than zero.";
                 },
             },
         ])
