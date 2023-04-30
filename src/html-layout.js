@@ -4,7 +4,6 @@ const createTeam = team => {
     const createManager = manager => {
         return`
         <div class="card">
-        <div class="card">
             <!-- Manager Name -->
             <div id="employee-name" class="card-header">${manager.getName()}</div>
             <div id="role">${manager.getRole()}</div>
@@ -23,11 +22,11 @@ const createTeam = team => {
         return`
         <div class="card">
         <!-- Engineer Name -->
-        <div id="employee-name" class="card-header">${engineer.getName} </div>
-        <div id="role">${engineer.getRole} </div>
+        <div id="employee-name" class="card-header">${engineer.getName()}</div>
+        <div id="role">${engineer.getRole()} </div>
         <div class="card-body">
             <ul class="data-list-items">
-                <li class="data-list-items">Employee Number: ${engineer.getId}  </li>
+                <li class="data-list-items">Employee Number: ${engineer.getId()}</li>
                 <li class="data-list-items">Email: <a href="mailto:${engineer.getEmail()}">${engineer.getEmail()}</a></li>
                 <li class="data-list-items">GitHub: <a href="https://github.com/${engineer.getGitHub()}">${engineer.getGitHub()}</a></li>
             </ul>
@@ -92,7 +91,7 @@ module.exports = team => {
         integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
     <!-- CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../dist/style.css">
 </head>
 
 <body>
