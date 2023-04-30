@@ -1,6 +1,49 @@
+// manager type card
+`<div class="card">
+    <!-- Manager Name -->
+    <div id="employee-name" class="card-header">${}</div>
+    <div id="role">${}</div>
+    <div class="card-body">
+        <ul class="data-list-items">
+            <li class="data-list-items">Employee Number: ${} </li>
+            <li class="data-list-items">Email: ${} </li>
+            <li class="data-list-items">Office Number: ${} </li>
+        </ul>
+    </div>
+</div>`
+
+// engineer type card
+`<div class="card">
+<!-- Engineer Name -->
+<div id="employee-name" class="card-header">${} </div>
+<div id="role">${} </div>
+<div class="card-body">
+    <ul class="data-list-items">
+        <li class="data-list-items">Employee Number: ${}  </li>
+        <li class="data-list-items">Email: ${}  </li>
+        <li class="data-list-items">GitHub: ${}  </li>
+    </ul>
+</div>
+</div>`
+
+// intern type card
+`<div class="card">
+    <!-- Intern Name -->
+    <div id="employee-name" class="card-header">${} </div>
+    <div id="role">${} </div>
+    <div class="card-body">
+        <ul class="data-list-items">
+            <li class="data-list-items">Employee Number: ${} </li>
+            <li class="data-list-items">Email: ${} </li>
+            <li class="data-list-items">School: ${} </li>
+        </ul>
+    </div>
+</div>`
+//generate html
+
+
 // template for html
 // boiler plate details
-
 module.exports = team => {
     return `
     <!DOCTYPE html>
@@ -18,5 +61,26 @@ module.exports = team => {
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="./dist/style.css">
 </head>
+
+<body>
+    <!-- Header for app -->
+    <div class="container-fluid col-12">
+        <header>My Team</header>
+    </div>
+
+    <!-- Flex Container for cards -->
+    <div class="container-fluid">
+        <div class="row">
+            <!-- where the cards will be generated for each employee -->
+            <div class="sectionArea d-flex justify-content-center">
+
+<!-- Bootstrap CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
+
 `
 }
