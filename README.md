@@ -26,39 +26,34 @@ Used for testing.
 * npm i jest
 
 ## Visuals 
-I began the project using Materialize CSS Framework and switched to Bootstrap CSS Framework to remove a "moderate severity vulnerability with cross-site Scripting(XSS)" notification.
-* https://getbootstrap.com/docs/5.1/getting-started/introduction/ 
+<!-- Need to provide a screenshot -->
 
-## Support
-If there are issues with the site, please reach out to me, Jennifer Engle, at j.engle.dev@gmail.com and reference the site's URL. Please provide any screenshots and behavior along with your browser information.
 
-## Roadmap
-N/A
 
 ## Contributing
 I am open to collaboration for contributing to updates to this page. Please email me at j.engle.dev@gmail.com.
 
 ## References Used
-
 * https://www.educative.io/answers/how-to-use-the-inquirer-node-package
-* https://materializecss.com/
 * https://www.w3schools.com/
 * https://developer.mozilla.org/
+* https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/super
 * https://www.youtube.com/watch?v=soKo5LzN12w
-* https://icons.getbootstrap.com/icons/cup-fill/
+* https://getbootstrap.com/docs/5.3/getting-started/introduction/
+* https://github.com/SBoudrias/Inquirer.js/issues/866
+* https://gist.github.com/Amitabh-K/ae073eea3d5207efaddffde19b1618e8
+* https://gist.github.com/tonybruess/9405134
+* https://discuss.codecademy.com/t/build-a-library-syntaxerror-super-keyword-unexpected-here/442707
 
-Used the following to inspect Materialize CSS elements & styles.
-* https://adbeus.com/
+## Support
+If there are issues with the site, please reach out to me, Jennifer Engle, at j.engle.dev@gmail.com and reference the site's URL. Please provide any screenshots and behavior along with your browser information.
 
-
-## Authors and acknowledgment
+## Author
 Jennifer Engle
+* GitHub @jengle-dev https://github.com/jengle-dev
 
 ## License
 No License is used on this site.
 
 ## Project status
 In progress.
-
-
-## Badges
