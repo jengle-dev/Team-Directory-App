@@ -22,11 +22,11 @@ const createTeam = team => {
         return`
         <div class="card">
         <!-- Engineer Name -->
-        <div id="employee-name" class="card-header">${engineer.getName()} </div>
+        <div id="employee-name" class="card-header">${engineer.getName()}</div>
         <div id="role">${engineer.getRole()} </div>
         <div class="card-body">
             <ul class="data-list-items">
-                <li class="data-list-items">Employee Number: ${engineer.getId()}  </li>
+                <li class="data-list-items">Employee Number: ${engineer.getId()}</li>
                 <li class="data-list-items">Email: <a href="mailto:${engineer.getEmail()}">${engineer.getEmail()}</a></li>
                 <li class="data-list-items">GitHub: <a href="https://github.com/${engineer.getGitHub()}">${engineer.getGitHub()}</a></li>
             </ul>
