@@ -27,10 +27,15 @@ or
 * `node index.js`
 
 ## Visuals 
-<!-- Need to provide a screenshot -->
+* CLI Screenshot
+https://user-images.githubusercontent.com/117794203/235378089-92f049f4-f06c-4b3a-a559-5e825db9fb70.png
 
-Gif of CLI prompts using inquirer
+* Output file generated "team.html":
+https://user-images.githubusercontent.com/117794203/235378093-eb8716fc-bee8-44d7-b0c6-dfcf88c5f2c7.PNG
 
+* Example of "team.html" displayed after right clicking on team.html and selecting "Open in Default Browser": https://user-images.githubusercontent.com/117794203/235378091-363f0a78-1d10-4e19-bdc0-51a68daf4e3c.png
+
+* Recording of initial CLI prompts: https://watch.screencastify.com/v/R66AllZDnPcmSUGM5ywC 
 
 
 ## Contributing
