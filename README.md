@@ -34,13 +34,16 @@ Used for testing.
 I am open to collaboration for contributing to updates to this page. Please email me at j.engle.dev@gmail.com.
 
 ## References Used
-
 * https://www.educative.io/answers/how-to-use-the-inquirer-node-package
 * https://www.w3schools.com/
 * https://developer.mozilla.org/
+* https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/super
 * https://www.youtube.com/watch?v=soKo5LzN12w
-* https://icons.getbootstrap.com/icons/cup-fill/
-
+* https://getbootstrap.com/docs/5.3/getting-started/introduction/
+* https://github.com/SBoudrias/Inquirer.js/issues/866
+* https://gist.github.com/Amitabh-K/ae073eea3d5207efaddffde19b1618e8
+* https://gist.github.com/tonybruess/9405134
+* https://discuss.codecademy.com/t/build-a-library-syntaxerror-super-keyword-unexpected-here/442707
 
 ## Support
 If there are issues with the site, please reach out to me, Jennifer Engle, at j.engle.dev@gmail.com and reference the site's URL. Please provide any screenshots and behavior along with your browser information.
@@ -48,7 +51,6 @@ If there are issues with the site, please reach out to me, Jennifer Engle, at j.
 ## Author
 Jennifer Engle
 * GitHub @jengle-dev https://github.com/jengle-dev
-
 
 ## License
 No License is used on this site.
