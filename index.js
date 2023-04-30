@@ -42,7 +42,8 @@ function appMenu() {
                 message: "What is the team manager's employee ID number?",
                 //validation suggested, not required, check user input
                 validate: answer => {
-                    var pass = !isNaN(answer) && ('answer' > 0)
+                    var pass = answer.match(
+                        /^0*?[1-9]\d*$/)
                     if (pass) {
                         return true;
                     }
@@ -69,7 +70,8 @@ function appMenu() {
                 message: "What is the team manager's office ID number?",
                 //validation suggested, not required, check user input
                 validate: answer => {
-                    var pass = !isNaN(answer) && ('answer' > 0)
+                    var pass = answer.match(
+                        /^0*?[1-9]\d*$/)
                     if (pass) {
                         return true;
                     }
@@ -88,7 +90,7 @@ function appMenu() {
                     answers.managerEmail,
                     answers.officeNumber);
                 teamMembers.push(manager);
-                idArray.push(managerId);
+                idArray.push('managerId');
 
                 createTeam();
             });
@@ -147,7 +149,8 @@ function appMenu() {
                 //validation suggested, not required, check user input
                 // employee ids need to be unique
                 validate: answer => {
-                    var pass = !isNaN(answer) && ('answer' > 0)
+                    var pass = answer.match(
+                        /^0*?[1-9]\d*$/)
                     if (pass) {
                         if (idArray.includes(answer)) {
                             return "This ID is already taken. Please enter a different employee ID."
@@ -199,7 +202,7 @@ function appMenu() {
                     answers.engineerId,
                     answers.engineerGitHub);
                 teamMembers.push(engineer);
-                idArray.push(engineerId);
+                idArray.push('engineerId');
 
                 createTeam();
             });
@@ -228,8 +231,9 @@ function appMenu() {
                 //validation suggested, not required, check user input
                 // employee ids need to be unique
                 validate: answer => {
-                    var pass = !isNaN(answer) && ('answer' > 0)
-                    if (pass) {
+                    var pass = answer.match(
+                        /^0*?[1-9]\d*$/)                    
+                        if (pass) {
                         if (idArray.includes(answer)) {
                             return "This ID is already taken. Please enter a different employee ID."
                         } else {
@@ -274,7 +278,8 @@ function appMenu() {
                 answers.internSchool
             );
             teamMembers.push(intern);
-            idArray.push(answers.internId);
+            idArray.push('internId');
+            
             createTeam();
         });
     }

@@ -20,87 +20,62 @@ header {
     border-color: black;
     border-style: solid;
     border-width: 1px;
-    /* border-radius: 10px 10px; */
 }
 
-.row {
-    margin-top: 3rem;
-    margin-left: 15px;
-    margin-right: 15px;
-    margin-bottom: 20px;
-}
-
-.container {
-    margin: 0 auto;
-    max-width: 1280px;
-    width: 90%;
+.sectionArea {
+    margin: 2rem auto;
+    max-width: 1050px;
+    flex-wrap: wrap;
 }
 
 .card {
-    display: inline-flex;
-    font-size: 1rem;
-    padding: 10px;
-}
-
-.card .card-content {
-    display: block;
-    border-radius: 5px 5px 0 0;
-    position: relative;
+    margin: 1rem;
     max-width: 350px;
+    width: 90%;
+    min-height: 15rem;
     background-color: bisque;
-    padding: 10px 10px 10px 10px;
+    color: navy;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 1rem;
     box-shadow: 4px 3px 3px var(--softDarkBlue);
     border-color: navy;
     border-style: solid;
-    border-width: 1px;
+    border-width: 2px;
 }
 
-div .card-content {
-    color: navy;
+.card-header {
+    background-color: lightslategray;
 }
 
-.container .row {
-    margin-left: -1rem;
-    margin-right: -1rem;
+.card-body {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border-radius: 5px 5px 0 0;
+    list-style-type: none;
+}
+
+
+.data-list-items {
+    color: var(--softDarkBlue);
+    text-decoration: none;
+    list-style-type: none;
+}
+
+#employee-name {
+    text-decoration: var(--softDarkBlue);
+    padding-bottom: 10px;
+    margin: none;
+    font-size: 1.5rem;
+    font-weight: bolder;
 }
 
 #role {
     border-bottom: 2px solid black;
     padding-bottom: 10px;
+    padding-left: 1rem;
     margin: none;
-}
-
-/* Icons for Roles */
-/* Intern/Student */
-#iconSchool {
-    display: none;
-}
-/* Developer */
-#iconDevMode {
-    display: inline-block;
-}
-/* Manager */
-#iconLocalCafe {
-    display: none;
-}
-
-/* large screen */
-@media screen and (min-width: 993px) {
-    .container {
-        width: 70%;
-    }
-}
-
-/* medium screen */
-@media screen and (min-width: 601px) {
-    .container {
-        width: 85%;
-    }
-}
-
-/* mobile or small screen */
-@media screen and (min-width: 600px) {
-    .container {
-        font-size: medium;
-    }
+    background-color: lightslategray;
 }

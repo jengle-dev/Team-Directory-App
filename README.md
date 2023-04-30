@@ -43,7 +43,10 @@ I am open to collaboration for contributing to updates to this page. Please emai
 * https://github.com/SBoudrias/Inquirer.js/issues/866
 * https://gist.github.com/Amitabh-K/ae073eea3d5207efaddffde19b1618e8
 * https://gist.github.com/tonybruess/9405134
+* https://regex101.com/library/dT6dE9
+* https://www.regextester.com/ 
 * https://discuss.codecademy.com/t/build-a-library-syntaxerror-super-keyword-unexpected-here/442707
+* https://getbootstrap.com/docs/5.3/layout/containers/
 
 ## Support
 If there are issues with the site, please reach out to me, Jennifer Engle, at j.engle.dev@gmail.com and reference the site's URL. Please provide any screenshots and behavior along with your browser information.
